@@ -1,0 +1,28 @@
+@media screen and (max-width: 576px) {
+    .nav-ber-container {
+      flex-direction: column;
+      justify-content: center;
+    }
+    .menu-container {
+      flex-direction: column;
+    }
+    .menu-items > ul {
+      flex-direction: column;
+      gap: 10px;
+      margin-left: 20px;
+    }
+  
+    .logo-container {
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    .logo {
+      margin-top: 20px;
+    }
+
+    /* banner-responsive */
+    .banner {
+        flex-direction: column;
+        justify-content: center;
+    }
+  }
