@@ -233,3 +233,42 @@ padding-bottom: 10px;
     border-radius: 50px;
     color: pink;
 }
+.g-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.label ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+
+}
+.label li  {
+    list-style: none;
+    margin-right: 20px;
+}
+.label li>a {
+    text-decoration: none;
+}
+footer {
+    background-color: black;
+    padding:120px 0px;
+}
+footer a {
+    color: white;
+}
+footer p {
+    color: white;
+    font-size:32px;
+}
+ .span {
+    color: rgb(238, 126, 144);
+}
+.foot-para p {
+    text-align: center;
+    font-size: 16px;
+}
