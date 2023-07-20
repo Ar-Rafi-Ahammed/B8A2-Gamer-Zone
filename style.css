@@ -75,10 +75,8 @@
   padding: 70px 0px;
   background-image: url('images/Group\ 14.png');
   background-repeat: no-repeat;
-  /* background-size: cover; */
 
 }
-
 
 .banner-intro {
   color: #0b0223;
@@ -130,8 +128,6 @@
 
 .banner-image img {
   width: 500px;
-
-  /* padding-right: 210px; */
 
 }
 
@@ -273,10 +269,10 @@
 
 
 .mini-img img {
-  width: 150px;
-  position: relative;
-  bottom: -130px;
-  left: -370px;
+	width: 150px;
+	position: relative;
+	bottom: 120px;
+	left: -87px;
 }
 
 /* side-img ends here  */

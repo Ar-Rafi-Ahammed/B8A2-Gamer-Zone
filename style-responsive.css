@@ -2,6 +2,7 @@
     .nav-ber-container {
       flex-direction: column;
       justify-content: center;
+      /* margin-left: 230px; */
     }
     .menu-container {
       flex-direction: column;
@@ -9,7 +10,7 @@
     .menu-items > ul {
       flex-direction: column;
       gap: 10px;
-      margin-left: 20px;
+      /* margin-left: 20px; */
     }
   
     .logo-container {
@@ -20,7 +21,84 @@
       margin-top: 20px;
     }
 
+
+
     /* banner-responsive */
-   
+
+    .banner {
+      flex-direction: column-reverse;
+      justify-content: center;
+      background-image: none;
+    }
+    .banner-image img {
+      width: 100%;
+      padding-bottom: 50px;
+    
+    }
+    .banner-description {
+      width: 100%;
+      text-align: center;
+      align-items: center;
+    }
+    
+
+    /* we are gamer parts starts */
+
+    .we-gamer {
+        flex-direction: column;
+    }
+    .gamer-pic img {
+      width: 100%;
+    }
+
+    .gamer-description {
+      text-align: center;
+      width: 80%;
+    }
+
+    /* online games responsive */
+
+    .online-games-head {
+     width: 90%;
+     align-items: center;
+     text-align: center;
+    }
+    .games-row {
+      flex-direction: column;
+    }
+    /* .img-card {
+        width:50%;
+        align-items: center;
+    } */
+    /* side image  */
+    .side-img {
+      flex-direction: column;
+      align-items: center;
+    }
+    .side-img-title {
+      width:90%;
+      text-align: center;
+    }
+    .mini-img img {
+      width: 150px;
+      position: relative;
+      bottom: 83px;
+      left: -52px;
+      padding-left: 50px;
+    }
+    .large-pic img {
+      width: 225px;   
+    }
+    .side-img-1 {
+        padding-top: 40px;
+      }
+.side-img-1 .lg {
+  width: 300px;
+  padding-left: 50px;
+}
+    
+
+
+
 
   }
