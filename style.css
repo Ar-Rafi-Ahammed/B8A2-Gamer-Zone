@@ -22,6 +22,10 @@
   border-radius: 5px;
 }
 
+.p-logo {
+  text-decoration: none;
+}
+
 .logo-container {
   display: flex;
 }
@@ -162,9 +166,9 @@
   /* color: rgb(245, 40, 245); */
   padding-bottom: 10px;
   background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .gamer-para {
@@ -192,9 +196,9 @@ background-clip: text;
 
 .games {
   background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .g-description {
@@ -359,11 +363,12 @@ footer p {
 
 .foot-para p {
   text-align: center;
-  font-size: 16px;
+  font-size: 14px;
+  color:lightgray
 }
 
 .font-icon {
-  font-size: 32px;
+  font-size: 24px;
   margin: 16px;
 }
 
