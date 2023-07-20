@@ -21,8 +21,6 @@
     }
 
     /* banner-responsive */
-    .banner {
-        flex-direction: column;
-        justify-content: center;
-    }
+   
+
   }
